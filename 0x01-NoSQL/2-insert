@@ -1,5 +1,6 @@
 // inserts a document in the collection `school`
-db.createCollection("school")
+// document has an attribute "name"
+
 db.school.insert({
     "name": "Holberton School"
 })
