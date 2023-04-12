@@ -3,7 +3,6 @@
 """This module defines a function that lists all documents in a collection."""
 
 import pymongo
-from pymongo import MongoClient
 
 
 def list_all(mongo_collection):
